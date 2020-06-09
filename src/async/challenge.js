@@ -15,6 +15,6 @@ const anotherFunction = async (url_api) => {
   }
 }
 
-console.log('     🟡BEFORE');
+console.log('     🟡 BEFORE');
 anotherFunction(API);
-console.log('     🟢AFTER');
+console.log('     🟢 AFTER');
