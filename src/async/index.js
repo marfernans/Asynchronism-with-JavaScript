@@ -29,3 +29,5 @@ const anotherFunction = async () => {
 console.log('     🟡 BEFORE 1');
 anotherFunction();
 console.log('     🟢 AFTER 1');
+
+
