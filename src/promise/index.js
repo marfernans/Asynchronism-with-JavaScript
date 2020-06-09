@@ -22,7 +22,7 @@ somethingWillHappen()
           resolve('✅ QUÉ BUENO');
         }, 3000)
       }else {
-        const error = new Error(' DUHAA!');
+        const error = new Error('❌ DUHAA!');
         reject(error);
       }
     })
@@ -37,7 +37,7 @@ somethingWillHappen()
 
 Promise.all([somethingWillHappen(), somethingWillHappen2()])
   .then(response => {
-    console.log('✅ ARRAY OF RESULTS', response);
+    console.log('🟢 ARRAY OF RESULTS', response);
   })
   
   .catch(err => {
